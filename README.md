@@ -6,8 +6,8 @@ tesztelése SoapUI és JUnit használatával" posztjához készült példaprogra
 Prezentálja azt, hogyan lehet webszolgáltatásokat automatikusan, JUnitból, SoapUI használatával
 tesztelni. Egy POJO van JAX-WS webszolgáltatásként kiajánlva, és tesztelve. Mavennel buildelhető, 
 és a letöltést követően a 'mvn jetty:run' paranccsal futtatható. A webszolgáltatás a
-http://localhost:8080/services/TempConvert címen érhető el, innen van linkelve a WSDL állomány is.
-A unit tesztek az 'mvn test' parancs kiadásával futtathatóak.
+`http://localhost:8080/services/TempConvert` címen érhető el, innen van linkelve a WSDL állomány is.
+A unit tesztek az `mvn test` parancs kiadásával futtathatóak.
 
 Felhasznált technológiák: JAX-WS, JUnit, SoapUI, Maven, Jetty
 
